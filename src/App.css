@@ -17,3 +17,37 @@
   margin: 5px 0;
   box-sizing: border-box;
 }
+
+.contact-Card-text{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user-info{
+  margin-left: 40px;
+  font-size: 21px;
+}
+
+
+i{
+  font-size: 30px;
+  margin-right: 15px;
+  border: 1px solid lightgray;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+}
+.xi-call{
+  color: green;
+  
+}
+.xi-mail{
+  color: skyblue;
+}
+
+.xi-star{
+  color: black;
+}
+.xi-star:hover{
+  color: red;
+}
